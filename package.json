@@ -1,0 +1,11 @@
+{
+  "name": "jumpstart-trilogy-help-bot",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": { "discord.js": "14.25.1" }
+}
